@@ -1,0 +1,47 @@
+/* Reset some default styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Section styles */
+section {
+  padding: 2rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+/* Add some spacing between list items */
+ul li {
+  margin-bottom: 0.5rem;
+}
